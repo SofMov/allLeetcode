@@ -96,7 +96,6 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     return 0; //for leetcode
 }
 
-//
 //Space complexity: O(m+n): need to create ans (12.3 MB)
 //time complexity: O(log (m+n)): used in merge function (0 ms)
 double findMedianSortedArraysWorse(int* nums1, int nums1Size, int* nums2, int nums2Size) {
