@@ -1,5 +1,8 @@
 //find 2 biggest numbers and multiply them together
 //return (nums[i]-1)*(nums[j]-1)
+
+//space complexity: O(1): always uses an array of length 2 (9.01 MB)
+//time complexity: O(n): go through all numbers to find 2 biggest (0 ms)
 #include <stdio.h>
 
 int maxProduct(int* nums, int numsSize) {
