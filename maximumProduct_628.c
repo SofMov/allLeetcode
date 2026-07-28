@@ -1,3 +1,5 @@
+//doesnt account for 2 negative times 1 positive
+
 int maximumProduct(int* nums, int numsSize) {
     int max_number[3] ;//= {nums[0], nums[1], nums[2]};
     int smallest[2] = {0};
